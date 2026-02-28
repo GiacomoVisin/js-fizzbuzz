@@ -22,4 +22,13 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 // inserisco una terza condizione che mi seleziona i multipli di 3 stampando BuzzFizz al posto del numero
 
 
+for (let i = 1; i <= 100; i++) {
+
+    if (i % 3 == 0 && i % 5 == 0) {
+        console.log(`Fizzbuzz`);
+    }
+
+   
+}
+
 
