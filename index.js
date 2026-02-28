@@ -24,13 +24,18 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 
 for (let i = 1; i <= 100; i++) {
 
+
+    //condizione divisibile per 3 e 5
     if (i % 3 == 0 && i % 5 == 0) {
         console.log(`Fizzbuzz`);
     }
 
+    //condizione divisibile solo per 3
     else if (i % 3 == 0) {
         console.log(`Fizz`);
     }
+
+    //condizione divisibile solo per 5 
     else if (i % 5 == 0) {
         console.log(`Buzz`);
     }
